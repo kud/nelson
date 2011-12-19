@@ -1,0 +1,80 @@
+html
+{
+  background: #2D9964;
+
+}
+
+body
+{
+  padding-top: 45px;
+}
+
+img
+{
+  display: block;
+}
+
+article, aside, dialog, figure, footer, header, nav, section
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+section#loader
+{
+  position: fixed;
+  width: 220px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  margin-left: -110px;
+  margin-top: -10px;
+}
+
+section#animation
+{
+  display: none;
+  position: fixed;
+  width: 800px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -300px;
+}
+
+.ha
+{
+  font-family: 'Luckiest Guy', arial, serif;
+  font-size: 75px;
+  color: white;
+  text-shadow: 0px 0px 15px #000;
+  -webkit-transform:  rotate(-30deg);
+  -moz-transform: rotate(-30deg) ;
+  -o-transform:  rotate(-30deg);
+  transform: rotate(-30deg);
+  position: absolute;
+  opacity: 0
+}
+
+#ha-1
+{
+  top: 50px;
+  left: -14px;
+}
+
+#ha-2
+{
+  top: -23px;
+  left: 135px;
+}
+
+#nelson
+{
+  cursor: pointer;
+}
+
